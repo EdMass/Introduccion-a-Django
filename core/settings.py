@@ -33,6 +33,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'blog',
+    'tailwind',
+    'theme',
+]
+
+TAILWIND_APP_NAME = 'theme'
+INTERNAL_IPS = [
+    "127.0.0.1",
 ]
 
 MIDDLEWARE = [
@@ -64,6 +71,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
+
+NPM_BIN_PATH = 'C:/Program Files/nodejs/npm.cmd'
 
 
 # Database
